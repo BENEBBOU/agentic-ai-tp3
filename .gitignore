@@ -1,0 +1,18 @@
+# Environnements et caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# Secrets
+.env
+# Journaux
+*.log
+
+# Article téléchargé automatiquement, sorties générées
+*.pdf
+resultats_pdf/
+chroma_db/
+# Supports de cours originaux (non redistribués)
+rag_multimodal_agentique.ipynb
+tableau.jpg
